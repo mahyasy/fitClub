@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+ ;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+#brand{
+
+  font-size: 3vw;
+font-weight: 900;
+background-image: linear-gradient(60deg,#FFB03A,#E21143);
+background-clip: text;
+color: transparent;
+
+
+
+}
+body {
+  overflow-x: hidden !important;
+}
+.container {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+@media screen and (max-width: 667px) {
+  body {
+      overflow-x: hidden !important;
+  }
+  .container {
+      max-width: 100% !important;
+      overflow-x: hidden !important;
+  }
+}
+#app1{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+
+}
+#app2{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+ 
+}
+.container1{
+  background-color: rgb(206, 206, 206);
+  border-radius: 10px;
+   padding: 20px;
+   margin-top: 10px;
+}
+.container{
+  padding: 10px;
+}
+.icon{
+  font-size: 30px;
+  background-color: rgb(189, 115, 115);
+  border-radius: 50%;
+  text-align: center;
+  width: 55px;
+  height: 55px;
+}
+.btnU{
+
+  font-weight: 900;
+  background-image: linear-gradient(60deg,#FFB03A,#E21143);
+ border: none;
+
+border-radius: 10px;
+
+
+}
+#btn{
+  font-weight: 900;
+  background-image: linear-gradient(60deg,#FFB03A,#E21143);
+ border: none;
+border-radius: 10px;
+
+}
+
+.test{
+  position: relative;
+  text-align: center;
+
+}
+.test img{
+  width: 350px;
+  height: 140px;
+  border-radius: 20px;
+  opacity: 60%;
+}
+span{
+  position: absolute;
+  top: 0px;
+  right: 120px;
+ width: 100%;
+  color: black;
+font-weight: 900;
+
+
+
+}
